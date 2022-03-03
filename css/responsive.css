@@ -1,0 +1,198 @@
+/* @media (min-width: 1400px){} (extra large)
+@media (min-width: 1200px) and (max-width: 1399.98px) {} (extra large)
+@media (min-width: 992px) and (max-width: 1199.98px) {}(large)
+@media (min-width: 768px) and (max-width: 991.98px) {}(medium)
+@media (min-width: 576px) and (max-width: 767.98px) {} (small) */
+
+
+
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    /* menu part s  */
+
+    #menu_part .navbar-brand::after {
+        height: 70px;
+        width: 166px;
+        left: 56%;
+    }
+
+    #menu_part .navbar-brand img {
+        vertical-align: middle;
+        margin-left: 20px;
+    }
+
+    #menu_part {
+        top: 10px;
+    }
+
+    #menu_part .navbar-toggler-icon i {
+        color: #fff;
+        font-size: 35px;
+    }
+
+    #menu_part .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #menu_part ul {
+        margin-top: 15px;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+    }
+
+    #menu a {
+        padding: 18px 10px;
+    }
+
+
+    /* menu part e  */
+
+
+    /* banner part s  */
+
+    #banner_part .banner_txt h2::after {
+        display: none;
+    }
+
+    #banner_part .banner_txt h2::before {
+        display: none;
+    }
+
+    #banner_part .banner_txt p::after {
+        display: none;
+    }
+
+    #banner_part .banner_txt p::after {
+        display: none;
+    }
+
+    #banner_part .banner_txt .bn1::after {
+        display: none;
+    }
+
+    #banner_part .banner_txt .bn1::before {
+        display: none;
+    }
+
+    #banner_part .banner_txt .bn2::before {
+        display: none;
+    }
+
+    #banner_part .banner_txt p {
+        width: auto;
+    }
+
+    /* banner part e  */
+
+
+    /* about part s  */
+
+    #about_part .abt_txt {
+        padding-left: 0;
+    }
+
+    #about_part .abt_itm {
+        margin-top: 30px;
+    }
+
+    /* about part e  */
+
+
+    /* team part s  */
+
+    #Team_part {
+        padding-top: 0px;
+    }
+
+    #Team_part .xpnd {
+        position: relative;
+        margin-top: 100px;
+    }
+
+
+    /* team part e  */
+
+
+    /* counter part s  */
+
+    #counter_part .counter_up {
+        flex-wrap: wrap;
+    }
+
+    #counter_part .c1 {
+        margin-top: 83px;
+    }
+
+    /* counter part e  */
+
+
+    /* routine part s  */
+
+    #class_part .class_btn ul li {
+        width: 16.66%;
+    }
+
+    #class_part .class_btn ul li button {
+        font-size: 7px;
+    }
+
+    #class_part .class_detalils ul li {
+        width: 32.5%;
+        padding: 9px 0px;
+    }
+
+    #class_part {
+        padding: 18px 0;
+    }
+
+    /* routine part e  */
+
+
+    /* spnsr part s  */
+
+    #snsr_part .slick-slide img {
+        margin-left: 14%;
+    }
+
+    /* spnsr part e  */
+
+
+    /* fotter part s  */
+
+    #fotter_part .ud::before {
+        display: none;
+    }
+
+    #fotter_part .ud::after {
+        display: none;
+    }
+
+    #fotter_part::after {
+        display: none;
+    }
+
+    #fotter_part::before {
+        display: none;
+    }
+
+    #fotter_part .f_i {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #fotter_part .f_i p {
+        width: auto;
+    }
+
+    #fotter_part .f_a {
+        display: none;
+    }
+
+    #fotter_part .last {
+        margin-left: 0px;
+    }
+
+    /* fotter part e  */
+
+}
